@@ -211,4 +211,70 @@ body{
 
 /*! HERO SECTION STYLE END */
 
+/*! OUR COLLECTION SECTION STYLE START */
+.our-collection {
+    margin-bottom: 188px;
+    position: relative;
+}
+
+.our-collection-img {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+}
+
+.our-collection-list {
+    position: absolute;
+    top: 110px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0;
+}
+
+.our-collection-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.our-collection-title-list {
+    display: flex;
+    align-items: center;
+    margin-top: 194px;
+    list-style: none;
+    
+}
+
+.our-collection-title-item:not(:first-child) {
+    margin-left: 30px;
+}
+.our-collection-title {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+    margin-top: 0;
+    margin-bottom: 24px;
+    width: 255px;
+}
+
+.our-collection-paragraph {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+    width: 255px;
+}
+
+/*! OUR COLLECTION SECTION STYLE END */
+
 /** MAIN STYLE END */
