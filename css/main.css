@@ -54,14 +54,7 @@
     url('../fonts/fraunces-v30-latin-900.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-/* VARIABLES */
-:root{
-    /* --main-text-color : #fff; */
-    /* --main-bg-color : #fff; */
-    /* --main-font-size : 16px; */
-    /* --main-font-weight : 400; */
-    /* --main-line-height : 1.5; */
-}
+
 *{
     box-sizing: border-box;
 }
@@ -86,6 +79,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Barlow", "Arial", sans-serif;
+    background-color: #FEFCF7;
 }
 
 /* VISUALLY-HIDDEN */
@@ -202,6 +196,7 @@ body{
     border-radius: 6px;
     border: none;
     margin-left: 86px;
+    cursor: pointer;
 }
 
 .hero-btn:active {
@@ -212,8 +207,8 @@ body{
 /*! HERO SECTION STYLE END */
 
 /*! OUR COLLECTION SECTION STYLE START */
-.our-collection {
-    margin-bottom: 188px;
+.our-collection-section {
+    margin-bottom: 200px;
     position: relative;
 }
 
@@ -249,7 +244,7 @@ body{
     
 }
 
-.our-collection-title-item:not(:first-child) {
+.our-collection-title-item {
     margin-left: 30px;
 }
 .our-collection-title {
@@ -277,4 +272,268 @@ body{
 
 /*! OUR COLLECTION SECTION STYLE END */
 
+/*! WHY CHOOSE US SECTION STYLE START */
+.whychoose-us-section {
+    position: relative;
+}
+
+.whychoose-us-box {
+    background-color: #2C343E;
+    border-radius: 10px;
+}
+
+.whychoose-us-title {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+    padding-top: 100px;
+    margin-bottom: 32px;
+}
+
+.whychoose-us-paragraph {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    width: 540px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    padding-bottom: 317px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    opacity: 0.8;
+}
+
+.whychoose-us-list {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    list-style: none;
+    width: 1110px;
+    top: 346px;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 0;
+   
+    
+    
+    
+}
+
+.whychooos-us-item {
+    width: 350px;
+    height: 382px;
+    background: #0E8784;
+    border-radius: 8px;
+    margin-right: 30px;
+    
+    
+}
+
+.margin {
+    margin: 0;
+}
+
+.whychoose-us-item-title {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7;
+    margin-top: 0;
+    margin-bottom: 24px;
+    padding-top: 200px;
+    position: relative;
+}
+
+.whychoose-us-beforeimg1::before {
+    content: url(../img/home/best-quality.png);
+    width: 100%;
+    display: block;
+    position:absolute;
+    top: 72px;
+    right: 0;
+    left: 0;
+    
+}
+
+.whychoose-us-beforeimg2::before {
+    content: url(../img/home/exclusive-benefits.png);
+    width: 100%;
+    display: block;
+    position:absolute;
+    top: 72px;
+    right: 0;
+    left: 0;
+}
+
+.whychoose-us-beforeimg3::before {
+    content: url(../img/home/free-shipping.png);
+    width: 100%;
+    display: block;
+    position:absolute;
+    top: 83px;
+    right: 0;
+    left: 0;
+}
+
+.whychoose-us-item-paragraph {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    width: 255px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+/*! WHY CHOOSE US SECTION STYLE END */
+
+/*! HOW IT WORKS SECTION STYLE START */
+.how-itworks-section {
+    padding-top: 351px;
+    padding-bottom: 200px;
+}
+
+.how-itworks-title {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-top: 0;
+    margin-bottom: 80px;
+    margin-left: 85px;
+}
+
+.how-itworks-img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 85px;
+}
+
+.oval2 {
+    position: absolute;
+    left: 349px;
+}
+
+.how-itworks-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 85px;
+}
+
+.how-itworks-item:not(:last-child) {
+    margin-right: 95px;
+}
+
+.how-itworks-item-num {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    display: block;
+    margin-top: 67px;
+    margin-bottom: 38px;
+}
+
+.how-itworks-item-title {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    margin-top: 0;
+    margin-bottom: 42px;
+    padding: 0;
+    width: 255px;
+}
+
+.how-itworks-item-paragraph {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    margin-bottom: 64px;
+}
+/*! HOW IT WORKS SECTION STYLE END */
+
 /** MAIN STYLE END */
+
+/* FOOTER STYLE START */
+.site-footer {
+    padding-top: 47px;
+    padding-bottom: 48px;
+    background-color: #2C343E;
+}
+
+.footer-box {
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+    margin-left: 103px;
+}
+
+.footer-item:not(:last-child) {
+    margin-right: 33px;
+}
+
+.footer-link {
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    color: #83888F;
+    text-decoration: none;
+}
+
+.footer-link:active {
+    color: #FEFCF7;
+}
+
+.footer-social-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 369px;
+    padding-left: none;
+}
+
+.footer-social-item:not(:last-child) {
+    margin-right: 24px;
+}
+
+.footer-social-link {
+    color: #FEFCF7;
+}
+
+.footer-social-link:active {
+    color: #FDD6BA;
+}
+/* FOOTER STYLE END */
