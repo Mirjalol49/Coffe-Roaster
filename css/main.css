@@ -116,8 +116,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 44px;
-    padding-bottom: 45px;
+    margin-top: 44px;
+    margin-bottom: 45px;
 }
 
 .site-header-list {
@@ -310,21 +310,18 @@ body{
 }
 
 .whychoose-us-list {
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     align-items: center;
     justify-content: space-between; 
     list-style: none;
     width: 1110px;
-    top: 346px;
-    margin-right: 40px;
-    margin-left: 40px;
-    padding: 0;
-   
-    
-    
-    
+    /* top: 346px; */
+    padding: 0 ;
+    margin: 0 30px;
 }
+
+
 
 .whychooos-us-item {
     width: 350px;
@@ -537,3 +534,123 @@ body{
     color: #FDD6BA;
 }
 /* FOOTER STYLE END */
+
+/* ************************************************************************ */
+
+/* ABOUT STYLE START */
+
+/* ABOUT US STYLE START */
+.about-section {
+    margin-bottom: 168px;
+}
+.about-section__box {
+    padding: 137px 0 137px 85px;
+    border-radius: 10px;
+    background-image: url("../img/about/hero-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about-section__title {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.about-section__paragraph {
+    width: 445px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    margin: 0;
+}
+
+/* ABOUT US STYLE END */
+
+/* COMMITMENT STYLE START */
+.commitment-section {
+    margin-bottom: 245px;
+}
+
+.commitment-section__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.commitment-section__textbox {
+    width:540px;
+}
+
+.commitment-section__title {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+}
+
+.commitment-section__paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    opacity: 0.8;
+}
+
+.commitment-section__img {
+    border-radius: 8px;
+    margin-right: 125px;
+    
+}
+/* COMMITMENT STYLE END */
+
+/* QUALITY STYLE START */
+.quality-section {
+    margin-bottom: 168px;
+}
+
+.quality-section__textbox {
+    position: relative;
+    padding: 88px 0 176px 85px;
+    background-image: url(../img/about/qualityBackground.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.quality-section__title {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+.quality-section__paragraph {
+    width: 540px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+}
+
+.quality-section__img {
+    position: absolute;
+    top: 0;
+}
+
+
+/* QUALITY STYLE END */
+
+
+
+/* ABOUT STYLE END */
